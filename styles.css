@@ -1,0 +1,62 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Orbitron", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 5, 5);
+    padding: 20px;
+    font-size: 42px;
+    color: rgb(238, 118, 5, 0.911);
+}
+
+section {
+    background: rgb(255, 42, 42);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+.chamada-texto2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40;
+}
+
+p {
+    font-size: 20;
+}
+
+h2 {
+    color: rgba(238, 118, 5, 0.911);
+    font-size: 30;
+    margin-left: 5%;
+}
+
+img {
+    height: 250;
+}
+
+.recomendados {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.recomendados img {
+    opacity: 0.5;
+}
+
+.recomendados img:hover {
+    opacity: 2.0;
+}
